@@ -15,7 +15,7 @@ public class A1Factory {
 			return new FactorialRecursive();
 		}
 		if (factorialType.equalsIgnoreCase("iterative")) {
-			return new FactorialIterative();
+			return new FactorailIterative();
 		}
 		throw new CannotConstructException("Invalid type of factorial function " + factorialType);
 	}
